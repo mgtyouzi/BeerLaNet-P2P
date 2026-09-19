@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments and editors
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Data and experiment artifacts
+datasets/
+dataset-new/
+data/
+experiments/
+outputs/
+output/
+results/
+result/
+pth/
+checkpoints/
+runs/
+logs/
+*.log
+*.db
+*.sqlite*
+
+# Model weights and generated arrays
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Generated media
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svs
+*.kfb
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# OS files
+.DS_Store
+Thumbs.db
