@@ -1,0 +1,54 @@
+[
+  {
+    "experiment": "frozen",
+    "domain": "FFPE_source_test",
+    "checkpoint_epoch": 18,
+    "precision": 0.7173001170158386,
+    "recall": 0.7615488767623901,
+    "f1": 0.7387625575065613,
+    "tp": 127069.0,
+    "fp": 50080.0,
+    "fn": 39787.0,
+    "selection_role": "source_ffpe_selection",
+    "checkpoint": "/home/data/yh_1/p2p_2026/beerlanet_p2p/experiments/beerlanet_p2p_stage_c_20260920_140759/beerlanet_frozen/best_model.pth"
+  },
+  {
+    "experiment": "frozen",
+    "domain": "Frozen_diagnostic",
+    "checkpoint_epoch": 18,
+    "precision": 0.5520893335342407,
+    "recall": 0.6681501269340515,
+    "f1": 0.6046003103256226,
+    "tp": 174903.0,
+    "fp": 141899.0,
+    "fn": 86869.0,
+    "selection_role": "diagnostic_only_no_checkpoint_selection",
+    "checkpoint": "/home/data/yh_1/p2p_2026/beerlanet_p2p/experiments/beerlanet_p2p_stage_c_20260920_140759/beerlanet_frozen/best_model.pth"
+  },
+  {
+    "experiment": "joint",
+    "domain": "FFPE_source_test",
+    "checkpoint_epoch": 19,
+    "precision": 0.7259823679924011,
+    "recall": 0.7608117461204529,
+    "f1": 0.7429891228675842,
+    "tp": 126946.0,
+    "fp": 47915.0,
+    "fn": 39910.0,
+    "selection_role": "source_ffpe_selection",
+    "checkpoint": "/home/data/yh_1/p2p_2026/beerlanet_p2p/experiments/beerlanet_p2p_stage_c_20260920_140759/beerlanet_joint/best_model.pth"
+  },
+  {
+    "experiment": "joint",
+    "domain": "Frozen_diagnostic",
+    "checkpoint_epoch": 19,
+    "precision": 0.5661035180091858,
+    "recall": 0.6822731494903564,
+    "f1": 0.618783175945282,
+    "tp": 178600.0,
+    "fp": 136890.0,
+    "fn": 83172.0,
+    "selection_role": "diagnostic_only_no_checkpoint_selection",
+    "checkpoint": "/home/data/yh_1/p2p_2026/beerlanet_p2p/experiments/beerlanet_p2p_stage_c_20260920_140759/beerlanet_joint/best_model.pth"
+  }
+]
