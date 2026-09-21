@@ -1,0 +1,11 @@
+root=experiments/beerlanet_p2p_stage_c_20260920_110300_gpu2_5_bt1
+gpu_frozen=2
+gpu_joint=5
+batch_size=1
+seed=0
+epochs=5
+init_checkpoint=/home/data/yh_1/p2p-yfh/p2p-src-zzh-2025/pth/0318/best_model.pth
+ffpe_dataset=/home/data/yh_1/SET_2/p2p-src-zzh-2025/datasets/石蜡-2025
+frozen_dataset=/home/data/yh_1/SET_2/p2p-src-zzh-2025/datasets/冰冻-2025
+source_selection_split=test (dataset has no val split)
+frozen_role=diagnostic_only
